@@ -2,20 +2,6 @@
   "status": "PASS",
   "missing": [],
   "csv_rows": {
-    "data/figure_ready/figure_1a.csv": 1600,
-    "data/figure_ready/figure_1b.csv": 5,
-    "data/figure_ready/figure_1c.csv": 6,
-    "data/figure_ready/figure_1d.csv": 5,
-    "data/figure_ready/figure_2b.csv": 11,
-    "data/figure_ready/figure_2c_sanitized.csv": 32,
-    "data/figure_ready/figure_2d.csv": 1204,
-    "data/figure_ready/figure_3a.csv": 3,
-    "data/figure_ready/figure_3b.csv": 4,
-    "data/figure_ready/figure_3c.csv": 5,
-    "data/figure_ready/figure_3d.csv": 9,
-    "data/figure_ready/figure_4b.csv": 61,
-    "data/figure_ready/figure_4c.csv": 15,
-    "data/figure_ready/figure_4d.csv": 3,
     "data/sensitivity/high_frequency_archive_eligibility_rules.csv": 10,
     "data/sensitivity/long_horizon_archive_eligibility_rules.csv": 10
   }
