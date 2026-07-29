@@ -1,0 +1,12 @@
+item,declared_rule
+Archive,2021-2022 four-hour Yellow River-basin archive
+Input records,"41,464 station-time rows at 14 sections"
+Variables,"Temperature, pH, dissolved oxygen, CODMn, NH4-N, TP, TN, conductivity, turbidity, chlorophyll-a and algal density when available"
+Quality filter,Negative values set missing; only rows marked normal when station-status was available
+Series eligibility,At least 200 valid observations and non-zero variance
+Autocorrelation sequence,Mean-centred series; positive sequence stopped at first non-positive/undefined lag
+Maximum lag,"min(90, n/5)"
+Integrated autocorrelation time,tau_int = 1 + 2 sum(rho_k) over the positive sequence
+Effective information,n_eff = n / tau_int
+Interpretation boundary,"Raw-series information equivalent; includes deterministic cycles and process memory, not literal storm counts"
+

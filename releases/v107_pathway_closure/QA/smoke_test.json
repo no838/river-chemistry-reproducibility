@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "missing": [],
+  "csv_rows": {
+    "data/sensitivity/high_frequency_archive_eligibility_rules.csv": 10,
+    "data/sensitivity/long_horizon_archive_eligibility_rules.csv": 10
+  }
+}

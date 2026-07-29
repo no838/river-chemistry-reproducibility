@@ -1,0 +1,2 @@
+# Standard-library-only smoke tests; no third-party dependencies required.
+

@@ -1,0 +1,12 @@
+item,declared_rule
+Archive,2007-2018 weekly inland water-quality archive
+Input observations,"217,751 weekly observations from 149 sites"
+Annual aggregation,"Median by site, indicator and calendar year"
+Minimum annual coverage,At least 8 valid weekly values in that calendar year
+Window lengths,"k = 2, 3, 4, 5 or 6 years"
+Eligibility for a comparison,2k consecutive eligible years for one site-indicator pair
+Training/test structure,"Adjacent, balanced and non-overlapping k-year windows"
+Trend-sign comparison,Sign of OLS slope in training window versus following test window
+Forecast comparison,Linear-trend forecast versus last-state persistence over the same test window
+Intervention role,Temporal calibration only; no engineering intervention effect is estimated
+
