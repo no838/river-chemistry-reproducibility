@@ -1,17 +1,10 @@
-# Water-quality pathway closure — minimal reproducibility release
+# Water-quality pathway closure — GitHub minimal text subset
 
-This is a small, journal-neutral release of figure-ready derived tables,
-selected sensitivity summaries, and the main evidence figures for a
-water-quality pathway-closure analysis.
+This folder contains a small, journal-neutral GitHub subset for the water-quality pathway-closure reproducibility materials. It includes release metadata, dependency-free checking scripts, and compact sensitivity tables only.
 
-## Scope
+The GitHub subset intentionally excludes raw monitoring records, station-level identifying fields, figures, figure-ready panel tables, manuscript files, submission documents, internal audit ledgers, model checkpoints, private machine paths, author identity, affiliations, e-mail addresses, and funding metadata.
 
-The release supports inspection of the published figure inputs and a bounded
-sensitivity summary. It is not a raw-to-paper reproduction package and does
-not contain restricted monitoring records, station-level identifying fields,
-author files, submission documents, internal audit ledgers, model checkpoints,
-or private machine paths. The included tables are derived/figure-ready data;
-upstream data-use terms remain applicable.
+The complete minimal archive, including main evidence figures and derived figure-ready tables, should be deposited separately in an archival repository. No DOI is written here until an archive record is actually published.
 
 ## Quick start
 
@@ -20,25 +13,12 @@ python3 scripts/smoke_test.py
 python3 scripts/summarize_sensitivity.py
 ```
 
-The smoke test is dependency-free. The sensitivity script uses only the small
-tables shipped under `data/sensitivity/`.
-
 ## Layout
 
-- `figures/`: main evidence figures in PDF, SVG, and PNG formats.
-- `data/figure_ready/`: selected derived inputs for the main figure panels.
-- `data/sensitivity/`: compact monitoring and archive-eligibility summaries.
-- `scripts/`: reproducible smoke test and summary calculation.
-- `MANIFEST.csv` and `CHECKSUMS.sha256`: file-level provenance and integrity.
+- `data/sensitivity/`: compact archive-eligibility sensitivity summaries.
+- `scripts/`: dependency-free smoke test and summary calculation.
+- `MANIFEST.csv` and `CHECKSUMS.sha256`: integrity records for this GitHub subset only.
 
 ## Claim boundary
 
-The materials support a bounded association/monitoring-design diagnostic. They
-do not identify causal effects, operational safety, regulatory thresholds, or
-general prevalence beyond the included derived summaries.
-
-## Citation
-
-Use the archive DOI assigned to the public record when citing this release;
-the DOI is intentionally not fabricated in this local build.
-
+The materials support a bounded monitoring-design diagnostic. They do not identify causal effects, operational safety, regulatory thresholds, or general prevalence beyond the included summaries.
