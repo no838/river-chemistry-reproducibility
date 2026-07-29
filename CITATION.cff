@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or derived data, please cite this release."
+title: "River chemistry reproducibility materials"
+type: software
+version: "0.1.0"
+date-released: 2026-07-29
+license: MIT
+authors:
+  - family-names: Zhou
+    given-names: Xi-Yin
+  - family-names: Cao
+    given-names: Chunyan
+  - family-names: KHU
+    given-names: Soon-Thiam
+keywords:
+  - river water quality
+  - hydrochemistry
+  - reproducibility
+  - figure-ready data
